@@ -1,29 +1,53 @@
 *{
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 1300px;
 }
 
 header{
     height: 300px;
-    margin: 20px;
-    padding: 10px;
-    border: 20px solid black;
+    padding: 20px;
+    border: 1px solid black;
+    background-image: url(../Images/CSS\ Imagen\ 1.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+nav{
+    position: absolute;
+    top: 400px;
+}
+a{
+    display: block;
+    height: 75px;
 }
 h1{
     position: center;
     height: 100px;
-    display: inline;
 }
 #logo{
     max-inline-size: 100px;
-    display: inline;
+    position: absolute;
+    top: 275px;
+    left: 75%;
 }
-
-img{
-    display: inline;
-    width: 400px;
-    margin: 10px;
+.fotito{
+    width: 350px;
+    position: absolute;
+    margin-left: 50%;
+    border-radius:15px;
+    top: 400px;
+}
+.subtitulo{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+article{
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+h2{
+    font-style: italic;
 }
