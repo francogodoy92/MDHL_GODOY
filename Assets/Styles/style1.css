@@ -1,0 +1,30 @@
+*{
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 1300px;
+}
+figure{
+    display: inline;
+}
+header{
+    height: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 20px solid black;
+}
+h1{
+    position: center;
+    height: 100px;
+    display: inline;
+}
+#logo{
+    max-inline-size: 100px;
+    display: inline;
+}
+
+img{
+    display: inline;
+    width: 400px;
+}
