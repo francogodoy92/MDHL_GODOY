@@ -1,0 +1,89 @@
+*{
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    background-image: url(../Images/CSS\ Imagen\ 1.jpg);
+    background-position: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 130px;
+    position: relative;
+}
+#titulo{
+    position: absolute;
+    top: -45px;
+    left: 0;
+    height: 100px;
+    color: rgb(0, 0, 0);
+}
+nav{
+    position: absolute;
+    top: -10px;
+    right: 5px;
+}
+a{
+    height: 60px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(89, 113, 252);
+    border: 1px solid black;
+    padding: 5px 10px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.521);
+}
+a[href="#"]{
+    background: rgb(83, 173, 83);
+}
+#logo{
+    width: 125px;
+    position: absolute;
+    top: 375px;
+    background-color: #fff;
+    border-radius: 15px;
+    border: 1px solid grey;
+}
+.fotito{
+    display: none;
+    width: 250px;
+    position: absolute;
+    margin-left: 70%;
+    border-radius:15px;
+    top: 400px;
+    box-shadow: 3px 3px 3px;
+}
+.subtitulo{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 50px;
+    margin-right: 10%;
+    margin-left: 10%;
+    border: 1px solid black;
+}
+article{
+    margin-left: 30%;
+    margin-bottom: 50px;
+}
+h3{
+    font-style: italic;
+}
+.about{
+    margin-right: 30%;
+}
+.mail{
+    display: inline;
+    color: blue;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    text-decoration: underline;
+}
+h4{
+    margin-top: 25px;
+    margin-left: 150px;
+}

@@ -1,5 +1,5 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,25 +10,23 @@ header{
     padding: 20px;
     border: 1px solid black;
     background-image: url(../Images/CSS\ Imagen\ 1.jpg);
-    background-size: auto;
-    background-repeat: no-repeat;
     background-position: center;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 #titulo{
-    text-shadow: 2px 2px white;
+    text-shadow: 2px 2px #9c9c9c;
     font-size: 50px;
+    height: 100px;
 }
 nav{
     position: absolute;
     top: 400px;
+    left: 10%;
 }
 a{
     display: block;
     height: 75px;
-}
-h1{
-    position: center;
-    height: 100px;
 }
 #logo{
     max-inline-size: 100px;
@@ -53,9 +51,12 @@ h1{
     color: white;
     text-align: center;
     margin-bottom: 50px;
+    margin-right: 10%;
+    margin-left: 10%;
+    border: 1px solid black;
 }
 article{
-    margin-left: 200px;
+    margin-left: 30%;
     margin-bottom: 50px;
 }
 h3{
@@ -69,4 +70,5 @@ h3{
 }
 h4{
     margin-top: 25px;
+    margin-left: 150px;
 }
