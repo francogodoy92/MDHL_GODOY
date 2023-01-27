@@ -12,6 +12,11 @@ header{
     background-image: url(../Images/CSS\ Imagen\ 1.jpg);
     background-size: auto;
     background-repeat: no-repeat;
+    background-position: center;
+}
+#titulo{
+    box-shadow: 0 0;
+    text-shadow: 0 2px 2px white;
 }
 nav{
     position: absolute;
@@ -30,6 +35,8 @@ h1{
     position: absolute;
     top: 275px;
     left: 75%;
+    background-color: #9c9c9c;
+    border-radius: 15px;
 }
 .fotito{
     width: 350px;
