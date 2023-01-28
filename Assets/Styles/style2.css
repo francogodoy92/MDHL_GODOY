@@ -6,11 +6,11 @@
 }
 
 header{
-    height: 300px;
+    height: 400px;
     padding: 20px;
     border: 1px solid black;
-    background-image: url(../Images/CSS\ Imagen\ 1.jpg);
-    background-position: center;
+    background-image: url(../Images/CSS\ Imagen\ 2.jpg);
+    background-position-y: -125px;
     margin-right: 10%;
     margin-left: 10%;
     margin-top: 130px;
@@ -43,7 +43,7 @@ a[href="#"]{
 #logo{
     width: 125px;
     position: absolute;
-    top: 375px;
+    top: 475px;
     background-color: #fff;
     border-radius: 15px;
     border: 1px solid grey;
@@ -85,5 +85,4 @@ h3{
 }
 h4{
     margin-top: 25px;
-    margin-left: 150px;
 }
