@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #252525;
 }
 
 header{
@@ -15,59 +16,75 @@ header{
     margin-left: 10%;
     margin-top: 80px;
     position: relative;
+    margin-bottom: 75px;
+    border-radius: 15px;
 }
 #titulo{
+    background-color: rgb(201, 216, 62);
     position: absolute;
-    top: -45px;
-    left: 0;
-    height: 100px;
-    color: rgb(0, 0, 0);
+    left: 0%;
+    border-radius: 15px;
+    border: 3px solid #252525;
+    top: 80%;
+    padding: 10px;
+    color: #252525;
 }
 nav{
     position: absolute;
-    top: -10px;
-    right: 5px;
+    top: -40px;
+    left: 5px;
 }
 a{
     height: 60px;
     text-decoration: none;
-    color: white;
-    background-color: rgb(89, 113, 252);
-    border: 1px solid black;
+    color: #252525;
+    background-color: rgb(201, 216, 62);
+    border-radius: 15px;
     padding: 5px 10px;
-    box-shadow: 3px 3px rgba(0, 0, 0, 0.521);
+    box-shadow: 3px 3px rgb(93, 104, 0);
+    border: 1px solid rgb(93, 104, 0);
 }
 a[href="#"]{
-    background: rgb(83, 173, 83);
+    background: rgb(105, 173, 105);
+    box-shadow: 3px 3px rgb(44, 80, 44);
+    border: 1px solid rgb(44, 80, 44);
 }
 #logo{
-    width: 125px;
+    width: 150px;
     position: absolute;
-    top: 475px;
-    background-color: #fff;
-    border-radius: 15px;
-    border: 1px solid grey;
+    top: -50px;
+    left: 45%;
+    background-color: rgb(41, 41, 41);
+    border-radius: 10px;
+    border: 4px solid rgb(201, 216, 62);
 }
 .fotito{
-    display: none;
-    width: 250px;
+    width: 175px;
     position: absolute;
-    margin-left: 70%;
     border-radius:15px;
-    top: 400px;
-    box-shadow: 3px 3px 3px;
+    top: 550px;
+    left: 200px;
+    box-shadow: 3px 3px rgb(93, 104, 0);
+    border: 1px solid rgb(93, 104, 0);
 }
 .subtitulo{
-    color: rgb(0, 0, 0);
+    color: #252525;
     text-align: center;
+    height: 30px;
+    width: 40%;
     margin-bottom: 50px;
-    margin-right: 10%;
-    margin-left: 10%;
-    border: 1px solid black;
+    border-radius: 15px;
+    position: absolute;
+    top: 500px;
+    left: 31%;
+    background-color: rgb(105, 173, 105);
+    box-shadow: 3px 3px rgb(44, 80, 44);
+    border: 1px solid rgb(44, 80, 44);
 }
 article{
-    margin-left: 30%;
+    margin-left: 35%;
     margin-bottom: 50px;
+    color: #9c9c9c;
 }
 h3{
     font-style: italic;
@@ -77,7 +94,7 @@ h3{
 }
 .mail{
     display: inline;
-    color: blue;
+    color: rgb(105, 173, 105);
     background-color: transparent;
     border: none;
     box-shadow: none;
