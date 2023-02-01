@@ -10,7 +10,7 @@ header{
     height: 400px;
     padding: 20px;
     border: 1px solid black;
-    background-image: url(../Images/CSS\ Imagen\ 2.jpg);
+    background-image: url(../images/css\ Imagen\ 2.jpg);
     background-position-y: -125px;
     margin-right: 10%;
     margin-left: 10%;
@@ -50,10 +50,10 @@ a[href="#"]{
     border: 1px solid rgb(44, 80, 44);
 }
 #logo{
-    width: 150px;
+    width: 100px;
     position: absolute;
     top: -50px;
-    left: 45%;
+    left: 47%;
     background-color: rgb(41, 41, 41);
     border-radius: 10px;
     border: 4px solid rgb(201, 216, 62);
@@ -62,8 +62,8 @@ a[href="#"]{
     width: 175px;
     position: absolute;
     border-radius:15px;
-    top: 550px;
-    left: 200px;
+    top: 600px;
+    left: 3rem;
     box-shadow: 3px 3px rgb(93, 104, 0);
     border: 1px solid rgb(93, 104, 0);
 }
@@ -102,4 +102,17 @@ h3{
 }
 h4{
     margin-top: 25px;
+}
+.subtitle{
+    text-align: center;
+    color: #9c9c9c;
+    margin-bottom: 2rem;
+    text-decoration:rgb(201, 216, 62) underline 2px;
+}
+.rules{
+    margin-left: 15rem;
+}
+.list-items{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
