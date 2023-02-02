@@ -90,7 +90,9 @@ div{
     margin-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
+    align-content: center;
 }
 h3{
     font-style: italic;
@@ -113,20 +115,21 @@ h4{
     color: #9c9c9c;
     margin-bottom: 2rem;
     text-decoration:rgb(201, 216, 62) underline 2px;
+    align-self: center;
 }
 .rules{
     margin-left: 15rem;
 }
 .list{
-    margin-left: 1rem;
     margin-bottom: 50px;
     color: #9c9c9c;
-    width: 75%;
+    width: 60%;
     list-style-position: inside;
 }
 .list-title{
     margin-bottom: 1rem;
     font-size: 1.5rem;
+    color: rgb(105, 173, 105);
 }
 .list-item{
     margin-bottom: 1rem;
@@ -139,4 +142,47 @@ h4{
 }
 .letasli{
     list-style-type: lower-alpha;
+}
+li::marker{
+    color: rgb(201, 216, 62);
+}
+.subtitulorg{
+    color: #252525;
+    text-align: center;
+    height: 30px;
+    width: 40%;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background-color: rgb(105, 173, 105);
+    box-shadow: 3px 3px rgb(44, 80, 44);
+    border: 1px solid rgb(44, 80, 44);
+    align-self: center;
+}
+table{
+    color: #9c9c9c;
+    border: 3px solid rgb(105, 173, 105);
+    table-layout: fixed;
+    text-align: center;
+    border-radius: 15px;
+    width: 70%;
+    height: 35rem;
+    border-spacing: 5px;
+}
+th{
+    color: #252525;
+    background-color: rgb(105, 173, 105);
+    border: 1px solid rgb(105, 173, 105);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    font-size: 15px;
+}
+td{
+    border: 1px solid rgb(105, 173, 105);
+}
+.subtitleg{
+    color: #9c9c9c;
+    align-self: left;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    text-decoration: underline 1px rgb(105, 173, 105);
 }
