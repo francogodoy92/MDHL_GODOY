@@ -87,6 +87,8 @@ article{
     color: #9c9c9c;
 }
 div{
+    position: absolute;
+    top: 31rem;
     margin-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -185,4 +187,13 @@ td{
     margin-bottom: 1rem;
     margin-left: 1rem;
     text-decoration: underline 1px rgb(105, 173, 105);
+}
+.fotitorg{
+    width: 10%;
+    position: absolute;
+    border-radius:15px;
+    top: 100px;
+    left: 3rem;
+    box-shadow: 3px 3px rgb(93, 104, 0);
+    border: 1px solid rgb(93, 104, 0);
 }
