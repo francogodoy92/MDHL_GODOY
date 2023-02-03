@@ -237,7 +237,7 @@ div>div{
 }
 .fotitorg:hover{
     transition: 0.2s;
-    transform: scale(1.7) translate(5rem);
+    transform: scale(1.7) translate(2rem);
     box-shadow: -4px 4px rgb(93, 104, 0);
 }
 nav>a:hover{
@@ -247,6 +247,6 @@ nav>a:hover{
 }
 .fotito:hover{
     transition: 0.2s;
-    transform: scale(1.7) translate(5rem);
+    transform: scale(1.7) translate(2rem);
     box-shadow: -4px 4px rgb(93, 104, 0);
 }
