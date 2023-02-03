@@ -67,7 +67,7 @@ a[href="#"]{
     border-radius:15px;
     top: 600px;
     left: 3rem;
-    box-shadow: 5px 5px rgb(93, 104, 0);
+    box-shadow: 4px 4px rgb(93, 104, 0);
     border: 2px solid rgb(201, 216, 62);
 }
 .subtitulo{
@@ -201,7 +201,7 @@ td{
     border-radius:15px;
     top: 100px;
     left: 3rem;
-    box-shadow: 5px 5px rgb(93, 104, 0);
+    box-shadow: 4px 4px rgb(93, 104, 0);
     border: 2px solid rgb(201, 216, 62);
 }
 .datos{
@@ -219,6 +219,7 @@ td{
 p>a{
     color:#9c9c9c;
     text-decoration: underline 2px rgb(105, 173, 105);
+    margin-left: 1rem;
 }
 .email{
     margin-left: 15rem;
@@ -237,7 +238,7 @@ div>div{
 .fotitorg:hover{
     transition: 0.2s;
     transform: scale(1.7) translate(5rem);
-    box-shadow: -5px 5px rgb(93, 104, 0);
+    box-shadow: -4px 4px rgb(93, 104, 0);
 }
 nav>a:hover{
     transition: 0.2s;
@@ -247,5 +248,5 @@ nav>a:hover{
 .fotito:hover{
     transition: 0.2s;
     transform: scale(1.7) translate(5rem);
-    box-shadow: -5px 5px rgb(93, 104, 0);
+    box-shadow: -4px 4px rgb(93, 104, 0);
 }
