@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration</title>
+        <link rel="icon" type="image/png" href="./assets/images/logo_Mighty_ducks-01.png">
+        <link rel="stylesheet" href="./assets/styles/stylepropio.css">
+    </head>
+    <body>
+      <header>
+        <img src="./assets/images/logo_Mighty_ducks-01.png" alt="logo" id="logo">
+        <h1 id="titulo">Mighty Ducks Hockey League</h1>
+        <nav>            
+          <a href="./index.html">Home</a>
+          <a href="./aboutMDHL.html">About MDHL</a>
+          <a href="./contact.html">Contact</a>
+          <a href="./rules.html">Rules</a>
+          <a href="./game_info.html">Game Info</a>
+          <a href="#">Registration</a>
+        </nav>
+      </header>
+      <main class="regisMain">
+        <form action="./show_data.html" method="get">
+            <img src="./assets/images/hockey_2.jpg" alt="foto_2" class="fotito">
+          <fieldset>
+            <legend class="registitle">Registration Form</legend>
+            <span class="block">
+              <label for="firstName">Player's First Name:</label>
+              <input type="text" name="firstName" id="firstName" placeholder="Franco">
+              <label for="lastName">Last Name:</label>
+              <input type="text" name="lastName" id="lastName" placeholder="Godoy">
+            </span>
+            <span class="block">
+              <label for="streetAddress">Street Address:</label>
+              <input type="text" name="streetAddress" id="streetAddress" placeholder="Av. Colón 1902">
+            </span>
+            <span class="block">
+              <label for="city">City:</label>
+              <input type="text" id="city" name="city" placeholder="Córdoba">
+              <label for="zipCode">Zip Code:</label>
+              <input type="number" name="zipCode" id="zipCode" placeholder="5000">
+            </span>
+            <span class="block">
+              <label for="birthDate">Birth Date:</label>
+
+      <!-- consultar para modificar el formato del selector de fecha-->
+              <input type="searchbox" id="birthDate" name="birthDate" placeholder="mm/dd/yyyy">
+              <!--<input type="date" format="MM-dd-yyyy" id="birthDate" > placeholder="mm/dd/yyyy"-->
+            </span>
+            <span class="block">
+              <legend id="nolegend">Gender:</legend>
+              <label for="female">Female</label>
+              <input type="radio" name="gender" id="female" value="female" class="cbox">
+              <label for="male">Male</label>
+              <input type="radio" name="gender" id="male" value="male" class="cbox">
+            </span>
+            <span class="block">  
+              <label for="grade">Grade:</label>
+              <select name="grade" id="grade">
+                <option value="">--Please choose an option--</option>
+                <option value="preschool">Pre-School</option>
+                <option value="first">1st</option>
+                <option value="second">2nd</option>
+                <option value="third">3rd</option>
+                <option value="fourth">4th</option>
+                <option value="fifth">5th</option>
+              </select>
+            </span>
+            <span class="block">
+              <legend >Which elementary school do you live near?</legend>
+              <label for="closestSchool">Closest School:</label>
+              <select name="closestSchool" id="closestSchool">
+                <option value="">--Please choose an option--</option>
+                <option value="ajKatzenmaier">AJ Katzenmaier</option>
+                <option value="marjoriePHart">Marjorie P Hart</option>
+                <option value="greenbay">Greenbay</option>
+                <option value="northElementary">North Elementary</option>
+                <option value="howardAYeager">Howard A Yeager</option>
+                <option value="southElementary">South Elementary</option>
+              </select>
+            </span>
+            <span class="block">
+              <legend >What position(s) do you normally play? (check all that apply)</legend>
+              <label for="forward">Forward</label>
+              <input type="checkbox" name="position" value="forward" id="forward" class="cbox">
+              <label for="midfield">Midfield</label>
+              <input type="checkbox" name="position" value="midfield" id="midfield" class="cbox">
+              <label for="defense">Defense</label>
+              <input type="checkbox" name="position" value="defense" id="defense" class="cbox">
+              <label for="goalkeeper">Goalkeeper</label>
+              <input type="checkbox" name="position" value="goalkeeper" id="goalkeeper" class="cbox">
+            </span>
+            <span class="block">
+              <legend>Uniform Size:</legend>
+              <label for="youthSmall">Youth Small</label>
+              <input type="checkbox" name="uniformSize" value="youthSmall" id="youthSmall" class="cbox">
+              <label for="youthMedium">Youth Medium</label>
+              <input type="checkbox" name="uniformSize" value="youthMedium" id="youthMedium" class="cbox">
+              <label for="youthLarge">Youth Large</label>
+              <input type="checkbox" name="uniformSize" value="youthLarge" id="youthLarge" class="cbox">
+              <label for="small">Small</label>
+              <input type="checkbox" name="uniformSize" value="small" id="small" class="cbox">
+              <label for="medium">Medium</label>
+              <input type="checkbox" name="uniformSize" value="medium" id="medium" class="cbox">
+              <label for="large">Large</label>
+              <input type="checkbox" name="uniformSize" value="large" id="large" class="cbox">
+              <label for="extraLarge">Extra Large</label>
+              <input type="checkbox" name="uniformSize" value="extralarge" id="extraLarge" class="cbox">
+            </span>
+            <span class="block">  
+              <legend class="permission">Permission to Play</legend>
+                <p>l, the parent or guardian of the minor registrant, agree that the 
+                  registrant and I will abide by all the rules of the Mighty Ducks Hockey 
+                  League (MDHL). In recognizing the possibility of physical injury associated 
+                  with hockey and in consideration for the "League" accepting the 
+                  registrant for its hockey programs and activities, 
+                  I hereby release, discharge, and/or otherwise indemnify 
+                  MDHL, their employees and associated personnel and volunteers,including 
+                  the facilities used for practices and games, against any claim by or on 
+                  behalf of the registrant as a result of the registrant's participation in 
+                  the programand/orbeing transported to or from MDHL sponsored activities, 
+                  which transportation.</p> 
+                <p>By signing below, I herebyagree andauthorizethe above.ln addition, 
+                  by signing below, lalso acknowledge that I have read the cancellation 
+                  policy and agree to its terms.</p>
+              <label for="parentSign">Parent/Guardian Signature:</label>
+              <input type="text" name="parentSign" id="parentSign" placeholder="Laura Fernández">
+              <label for="date">Date:</label>
+              <input type="searchbox" id="date" name="date" placeholder="mm/dd/yyyy">
+              <!--<input type="date" format="MM-dd-yyyy" name="date" id="date">-->
+            </span>
+          </fieldset>
+        </form>
+      </main>
+    </body>
+</html>

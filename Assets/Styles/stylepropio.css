@@ -36,6 +36,7 @@ nav{
     left: 10%;
     display: flex;
     gap: 1rem;
+    background-color: transparent;
 }
 nav>a{
     height: 2rem;
@@ -44,12 +45,12 @@ nav>a{
     background-color: rgb(201, 216, 62);
     border-radius: 15px;
     padding: 5px 10px;
-    box-shadow: 3px 3px rgb(93, 104, 0);
+    box-shadow: 3px 3px 5px rgb(93, 104, 0);
     border: 1px solid rgb(93, 104, 0);
 }
 a[href="#"]{
     background: rgb(105, 173, 105);
-    box-shadow: 3px 3px rgb(44, 80, 44);
+    box-shadow: 3px 3px 5px rgb(44, 80, 44);
     border: 1px solid rgb(44, 80, 44);
 }
 #logo{
@@ -67,7 +68,7 @@ a[href="#"]{
     border-radius:15px;
     top: 600px;
     left: 3rem;
-    box-shadow: 4px 4px rgb(93, 104, 0);
+    box-shadow: 4px 4px 5px rgb(93, 104, 0);
     border: 2px solid rgb(201, 216, 62);
 }
 .subtitulo{
@@ -81,7 +82,7 @@ a[href="#"]{
     top: 500px;
     left: 31%;
     background-color: rgb(105, 173, 105);
-    box-shadow: 3px 3px rgb(44, 80, 44);
+    box-shadow: 3px 3px 5px rgb(44, 80, 44);
     border: 1px solid rgb(44, 80, 44);
 }
 article{
@@ -131,7 +132,7 @@ h4{
     border: 3px solid rgb(201,216,62);
     padding: 10px;
     border-radius: 20px;
-    box-shadow: 5px 5px rgb(93, 104, 0);
+    box-shadow: 5px 5px 5px rgb(93, 104, 0);
 }
 .list-title{
     margin-bottom: 1rem;
@@ -161,7 +162,7 @@ li::marker{
     margin-bottom: 20px;
     border-radius: 15px;
     background-color: rgb(105, 173, 105);
-    box-shadow: 3px 3px rgb(44, 80, 44);
+    box-shadow: 3px 3px 5px rgb(44, 80, 44);
     border: 1px solid rgb(44, 80, 44);
     align-self: center;
 }
@@ -174,7 +175,7 @@ table{
     width: 60%;
     height: 35rem;
     border-spacing: 5px;
-    box-shadow: 3px 3px rgb(93, 104, 0);
+    box-shadow: 3px 3px 5px rgb(93, 104, 0);
 }
 th{
     color: #252525;
@@ -201,7 +202,7 @@ td{
     border-radius:15px;
     top: 100px;
     left: 3rem;
-    box-shadow: 4px 4px rgb(93, 104, 0);
+    box-shadow: 4px 4px 5px rgb(93, 104, 0);
     border: 2px solid rgb(201, 216, 62);
 }
 .datos{
@@ -237,7 +238,7 @@ div>div{
 .fotitorg:hover{
     transition: 0.2s;
     transform: scale(1.7) translate(2rem);
-    box-shadow: -4px 4px rgb(93, 104, 0);
+    box-shadow: -4px 4px 5px rgb(93, 104, 0);
 }
 nav>a:hover{
     transition: 0.2s;
@@ -247,5 +248,79 @@ nav>a:hover{
 .fotito:hover{
     transition: 0.2s;
     transform: scale(1.7) translate(2rem);
-    box-shadow: -4px 4px rgb(93, 104, 0);
+    box-shadow: -4px 4px 5px rgb(93, 104, 0);
+}
+.registitle{
+    color: #252525;
+    text-align: center;
+    height: 35px;
+    width: 50%;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background-color: rgb(105, 173, 105);
+    box-shadow: 3px 3px 5px rgb(44, 80, 44);
+    border: 1px solid rgb(44, 80, 44);
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    color: #9c9c9c;
+    text-align: center;
+    border-radius: 15px;
+    width: 65%;
+    padding: 15px;
+}
+.regisMain{
+    display: flex;
+    justify-content: center;
+}
+fieldset{
+    border: 3px solid rgb(201, 216, 62);
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px rgb(93, 104, 0);
+    padding: 1.5rem;
+}
+.block{
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: space-between;
+    margin-bottom: 10px;    
+}
+.permission{
+    display: block;
+    text-align: left;
+    text-decoration: underline rgb(105, 173, 105);
+    font-size: 20px;
+}
+input{
+    color: rgb(105, 173, 105);
+    border-radius: 15px;
+    z-index: 0;
+    height: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    width: 25%;
+    border: 2px solid rgb(44, 80, 44, 0.507);
+}
+.cbox{
+    width: 20px;
+}
+span>legend{
+    font-size: 20px; 
+    text-align: left;
+    width: 100%;
+    text-decoration: underline rgb(44, 80, 44);
+}
+#nolegend{
+    text-decoration: none;
+    width: 30%;
+    font-size: medium;
+}
+select{
+    color: #9c9c9c;
+    border-radius: 10px;
+    border: 2px solid rgb(44, 80, 44, 0.507);
 }
