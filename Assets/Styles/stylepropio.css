@@ -54,10 +54,10 @@ a[href="#"]{
     border: 1px solid rgb(44, 80, 44);
 }
 #logo{
-    width: 100px;
+    width: 125px;
     position: absolute;
     top: -50px;
-    left: 47%;
+    left: 90%;
     background-color: rgb(41, 41, 41);
     border-radius: 10px;
     border: 4px solid rgb(201, 216, 62);
@@ -284,10 +284,9 @@ fieldset{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
 }
 .permission{
-    display: block;
     text-align: left;
     text-decoration: underline rgb(105, 173, 105);
     font-size: 20px;
@@ -295,8 +294,7 @@ fieldset{
 input{
     color: rgb(105, 173, 105);
     border-radius: 15px;
-    z-index: 0;
-    
+    z-index: 0;    
     font-weight: bold;
     text-align: center;
     width: 25%;
@@ -330,10 +328,10 @@ fieldset>fieldset{
 .primerfield{
     margin: 0;
     padding: 0;
-    height: 15px;
+    display: block;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 #birthDate{
     margin-left: 2rem;
