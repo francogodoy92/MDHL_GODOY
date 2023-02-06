@@ -26,38 +26,38 @@
             <img src="./assets/images/hockey_2.jpg" alt="foto_2" class="fotito">
           <fieldset>
             <legend class="registitle">Registration Form</legend>
-            <span class="block">
+            <fieldset class="primerfield">
               <label for="firstName">Player's First Name:</label>
               <input type="text" name="firstName" id="firstName" placeholder="Franco">
               <label for="lastName">Last Name:</label>
               <input type="text" name="lastName" id="lastName" placeholder="Godoy">
-            </span>
-            <span class="block">
+            </fieldset>
+            <fieldset class="block">
               <label for="streetAddress">Street Address:</label>
               <input type="text" name="streetAddress" id="streetAddress" placeholder="Av. Colón 1902">
-            </span>
-            <span class="block">
+            </fieldset>
+            <fieldset>
               <label for="city">City:</label>
               <input type="text" id="city" name="city" placeholder="Córdoba">
               <label for="zipCode">Zip Code:</label>
               <input type="number" name="zipCode" id="zipCode" placeholder="5000">
-            </span>
-            <span class="block">
+            </fieldset>
+            <label class="block">
               <label for="birthDate">Birth Date:</label>
-
-      <!-- consultar para modificar el formato del selector de fecha-->
-              <input type="searchbox" id="birthDate" name="birthDate" placeholder="mm/dd/yyyy">
-              <!--<input type="date" format="MM-dd-yyyy" id="birthDate" > placeholder="mm/dd/yyyy"-->
-            </span>
-            <span class="block">
-              <legend id="nolegend">Gender:</legend>
+      <!-- consultar para modificar el formato del selector de fecha y colocar placeholder-->
+              <input type="date" format="MM-dd-yyyy" id="birthDate" >
+            </label>
+            <fieldset class="block">
+              <legend >Gender:</legend>
               <label for="female">Female</label>
               <input type="radio" name="gender" id="female" value="female" class="cbox">
               <label for="male">Male</label>
               <input type="radio" name="gender" id="male" value="male" class="cbox">
-            </span>
-            <span class="block">  
-              <label for="grade">Grade:</label>
+            </fieldset>
+            <fieldset class="block">  
+              <legend>
+                <label for="grade">Grade:</label>
+              </legend>
               <select name="grade" id="grade">
                 <option value="">--Please choose an option--</option>
                 <option value="preschool">Pre-School</option>
@@ -67,8 +67,8 @@
                 <option value="fourth">4th</option>
                 <option value="fifth">5th</option>
               </select>
-            </span>
-            <span class="block">
+            </fieldset>
+            <fieldset class="block">
               <legend >Which elementary school do you live near?</legend>
               <label for="closestSchool">Closest School:</label>
               <select name="closestSchool" id="closestSchool">
@@ -80,8 +80,8 @@
                 <option value="howardAYeager">Howard A Yeager</option>
                 <option value="southElementary">South Elementary</option>
               </select>
-            </span>
-            <span class="block">
+            </fieldset>
+            <fieldset class="block">
               <legend >What position(s) do you normally play? (check all that apply)</legend>
               <label for="forward">Forward</label>
               <input type="checkbox" name="position" value="forward" id="forward" class="cbox">
@@ -91,27 +91,23 @@
               <input type="checkbox" name="position" value="defense" id="defense" class="cbox">
               <label for="goalkeeper">Goalkeeper</label>
               <input type="checkbox" name="position" value="goalkeeper" id="goalkeeper" class="cbox">
-            </span>
-            <span class="block">
+            </fieldset>
+            <fieldset class="block">
               <legend>Uniform Size:</legend>
-              <label for="youthSmall">Youth Small</label>
-              <input type="checkbox" name="uniformSize" value="youthSmall" id="youthSmall" class="cbox">
-              <label for="youthMedium">Youth Medium</label>
-              <input type="checkbox" name="uniformSize" value="youthMedium" id="youthMedium" class="cbox">
-              <label for="youthLarge">Youth Large</label>
-              <input type="checkbox" name="uniformSize" value="youthLarge" id="youthLarge" class="cbox">
-              <label for="small">Small</label>
-              <input type="checkbox" name="uniformSize" value="small" id="small" class="cbox">
-              <label for="medium">Medium</label>
-              <input type="checkbox" name="uniformSize" value="medium" id="medium" class="cbox">
-              <label for="large">Large</label>
-              <input type="checkbox" name="uniformSize" value="large" id="large" class="cbox">
-              <label for="extraLarge">Extra Large</label>
-              <input type="checkbox" name="uniformSize" value="extralarge" id="extraLarge" class="cbox">
-            </span>
-            <span class="block">  
+              <select name="uniformSize" id="uniformSize">
+                <option value="">--Please choose an option--</option>
+                <option value="youthSmall">Youth Small</option>
+                <option value="youthMedium">Youth Medium</option>
+                <option value="youthLarge">Youth Large</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+                <option value="extraLarge">Extra Large</option>
+              </select>
+            </fieldset>
+            <fieldset class="block">  
               <legend class="permission">Permission to Play</legend>
-                <p>l, the parent or guardian of the minor registrant, agree that the 
+                <label>l, the parent or guardian of the minor registrant, agree that the 
                   registrant and I will abide by all the rules of the Mighty Ducks Hockey 
                   League (MDHL). In recognizing the possibility of physical injury associated 
                   with hockey and in consideration for the "League" accepting the 
@@ -121,16 +117,15 @@
                   the facilities used for practices and games, against any claim by or on 
                   behalf of the registrant as a result of the registrant's participation in 
                   the programand/orbeing transported to or from MDHL sponsored activities, 
-                  which transportation.</p> 
-                <p>By signing below, I herebyagree andauthorizethe above.ln addition, 
+                  which transportation.</label> 
+                <label>By signing below, I herebyagree andauthorizethe above.ln addition, 
                   by signing below, lalso acknowledge that I have read the cancellation 
-                  policy and agree to its terms.</p>
+                  policy and agree to its terms.</label>
               <label for="parentSign">Parent/Guardian Signature:</label>
               <input type="text" name="parentSign" id="parentSign" placeholder="Laura Fernández">
               <label for="date">Date:</label>
-              <input type="searchbox" id="date" name="date" placeholder="mm/dd/yyyy">
-              <!--<input type="date" format="MM-dd-yyyy" name="date" id="date">-->
-            </span>
+              <input type="date" format="MM-dd-yyyy" name="date" id="date">
+            </fieldset>
           </fieldset>
         </form>
       </main>
