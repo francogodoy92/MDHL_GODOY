@@ -364,7 +364,8 @@ button:hover{
         width: 80%;
         align-self: center;
     }
-    @media screen and (max-width:375px){
+}
+@media screen and (max-width:375px){
         nav{
             flex-direction: column;
             position: absolute;
@@ -408,6 +409,7 @@ button:hover{
             background-color: rgb(105, 173, 105);
             box-shadow: 3px 3px 5px rgb(44, 80, 44);
             border: 1px solid rgb(44, 80, 44);
+            padding: 1%;
         }
         .fotito{
             width: 20%;
@@ -429,6 +431,49 @@ button:hover{
             font-weight: normal;
             margin-top: 0;
             width: 120%;
-            position
+            text-align: center;
+            position: relative;
+            left: -4.5rem;
         }
-}
+        .about{
+            margin-left: 0;
+            width: 100%;
+        }
+        .fotitorg{
+            width: 20%;
+            border-radius: 0.5rem;
+            top: -3.5%;
+            left: 0;
+            z-index: 1;
+            box-shadow: 2px 2px 2px rgb(93, 104, 0);
+        }
+        .subtitulorg{
+            font-size: 1rem;
+            width: auto;
+            border-radius: 0.5rem;
+            padding: 1%;
+            margin-top: 0rem;
+            margin-bottom: 1.5rem;
+            border-radius: 0.5rem;
+        }
+        .subtitle{
+            margin-bottom: 2rem;
+            text-decoration:rgb(201, 216, 62) underline 1px;
+            position: relative;
+            width: 70%;
+            top: 0;
+            left: 0.5%;
+        }
+        .list{
+            width: 80%;
+            border: 2px solid rgb(201,216,62);
+            padding: 1rem;
+            border-radius: 1rem;
+            box-shadow: 2px 2px 2px rgb(93, 104, 0);
+        }
+        .list-title{
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+            color: rgb(105, 173, 105);
+        }
+    }
