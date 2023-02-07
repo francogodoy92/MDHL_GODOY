@@ -324,12 +324,13 @@ button{
     text-align: center;
     width: 7rem;
     height: 2.5rem;
-    color: rgb(105, 173, 105);
+    color: #252525;
     font-weight: bold;
     font-size: 1.5rem;
-    border: 3px solid rgb(201, 216, 62);
+    background-color: rgb(105, 173, 105);
+    border: 1px solid rgb(44, 80, 44);
     border-radius: 1rem;
-    box-shadow: 3px 3px 5px rgb(93, 104, 0);
+    box-shadow: 2px 2px 3px rgb(44, 80, 44);;
 }
 #submit{
     align-self: center;
@@ -475,5 +476,83 @@ button:hover{
             margin-bottom: 0.5rem;
             font-size: 1rem;
             color: rgb(105, 173, 105);
+        }
+        table{
+            width: auto;
+            color: #9c9c9c;
+            border: 3px solid rgb(201, 216, 62);
+            align-self: center;
+            padding: 0.2rem;
+            border-radius: 1rem;
+            border-spacing: 0.2rem;
+            box-shadow: 1px 1px 2px rgb(93, 104, 0);
+        }
+        th{
+            font-size: 1rem;
+            padding: 0.5rem;
+            border-top-right-radius: 1rem;
+            border-top-left-radius: 1rem;
+        }
+        .datos{
+            width: 70%;
+            font-size: 1rem;
+            position: absolute;
+            left: 15%;
+        }
+        .bold{
+            font-weight: normal;
+        }
+        .subtitleg{
+            margin-left: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        form{
+            width: 90%;
+        }
+        .registitle{
+            height: 2rem;
+            width: auto;
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+            border-radius: 0.5rem;
+            background-color: rgb(105, 173, 105);
+            box-shadow: 3px 3px 5px rgb(44, 80, 44);
+            border: 1px solid rgb(44, 80, 44);
+            text-decoration: none;
+        }
+        legend{
+            color: rgb(105, 173, 105);
+            font-size: 1rem; 
+            text-align: left;
+            margin-bottom: 0.5rem;
+        }
+        input[type="date"]{
+            width: 40%;
+        }
+        .cbox{
+            width: 0.7rem;
+        }
+        button{
+            text-align: center;
+            width: auto;
+            height: auto;
+            padding: 0.5rem;
+            font-size: 1rem;
+            border: 1px solid rgb(44, 80, 44);
+            border-radius: 0.5rem;
+            box-shadow: 2px 2px 3px rgb(44, 80, 44);
+        }
+        label{
+            width: 60%;
+            align-self: center;
+        }
+        input[type=text][type=number]{
+            width: 50%;
+        }
+        .parrafo{
+            width: 100%;
+        }
+        #parentSign{
+            width: 60%;
         }
     }
