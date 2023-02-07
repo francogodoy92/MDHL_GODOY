@@ -15,7 +15,7 @@ header{
     position: relative;
     left: 5%;
     margin-bottom: 7rem;
-    border-radius: 3rem;
+    border-radius: 1rem;
 }
 #titulo{
     background-color: rgb(201, 216, 62);
@@ -54,12 +54,12 @@ a[href="#"]{
     border: 1px solid rgb(44, 80, 44);
 }
 #logo{
-    width: 10%;
+    width: 8%;
     position: relative;
     top: 0%;
-    left: 45%;
+    left: 47%;
     background-color: rgb(41, 41, 41);
-    border-radius: 2rem;
+    border-radius: 1rem;
     border: 4px solid rgb(201, 216, 62);
 }
 .fotito{
@@ -78,7 +78,7 @@ a[href="#"]{
     width: 40%;
     border-radius: 2rem;
     position: absolute;
-    top: 70%;
+    top: 54%;
     left: 31%;
     background-color: rgb(105, 173, 105);
     box-shadow: 3px 3px 5px rgb(44, 80, 44);
@@ -127,8 +127,8 @@ h4{
     width: 60%;
     list-style-position: inside;
     border: 3px solid rgb(201,216,62);
-    padding: 10px;
-    border-radius: 20px;
+    padding: 1rem;
+    border-radius: 2rem;
     box-shadow: 5px 5px 5px rgb(93, 104, 0);
 }
 .list-title{
@@ -211,7 +211,6 @@ td{
     align-self: center;
     top: 100%;
     padding: 2rem;
-
 }
 .bold{
     font-weight: bold;
@@ -223,7 +222,7 @@ p>a{
     margin-left: 1rem;
 }
 .email{
-    margin-left: 15rem;
+    margin-left: 5rem;
 }
 div>p{
     margin-bottom: 1rem;
@@ -247,24 +246,19 @@ nav>a:hover{
 .registitle{
     color: #252525;
     text-align: center;
-    height: 35px;
+    height: 2rem;
     width: 50%;
     font-size: 1.5rem;
-    margin-bottom: 20px;
-    border-radius: 15px;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
     background-color: rgb(105, 173, 105);
     box-shadow: 3px 3px 5px rgb(44, 80, 44);
     border: 1px solid rgb(44, 80, 44);
     text-decoration: none;
 }
-form{
-    display: flex;
-    flex-wrap: wrap;
-    color: #9c9c9c;
-    text-align: center;
-    border-radius: 15px;
+form{    
     width: 65%;
-    padding: 15px;
+    padding: 1rem;
 }
 .regisMain{
     display: flex;
@@ -272,9 +266,10 @@ form{
 }
 fieldset{
     border: 3px solid rgb(201, 216, 62);
-    border-radius: 15px;
+    border-radius: 1.3rem;
     box-shadow: 3px 3px 5px rgb(93, 104, 0);
     padding: 1.5rem;
+    color: #9c9c9c;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -282,24 +277,24 @@ fieldset{
 }
 input{
     color: #9c9c9c;
-    border-radius: 15px;    
+    border-radius: 0.4rem;    
     font-weight: bold;
     text-align: center;
     width: 25%;
     border: 2px solid rgb(44, 80, 44, 0.507);
 }
 .cbox{
-    width: 20px;
+    width: 1rem;
 }
 legend{
     color: rgb(105, 173, 105);
-    font-size: 20px; 
+    font-size: 1.5rem; 
     text-align: left;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 select{
     color: #9c9c9c;
-    border-radius: 10px;
+    border-radius: 0.4rem;
     border: 2px solid rgb(44, 80, 44, 0.507);
 }
 label{
@@ -333,7 +328,7 @@ button{
     font-weight: bold;
     font-size: 1.5rem;
     border: 3px solid rgb(201, 216, 62);
-    border-radius: 15px;
+    border-radius: 1rem;
     box-shadow: 3px 3px 5px rgb(93, 104, 0);
 }
 #submit{
@@ -346,4 +341,94 @@ button:hover{
     transition: 0.2s;
     transform: scale(1.4);
     box-shadow: -4px 4px 5px rgb(93, 104, 0);
+}
+@media screen and (max-width:768px){
+    .subtitulo{
+        top: 67%;
+    }
+    .subtitulorg{
+        height: auto;
+    }
+    .subtitle{
+        align-self: center;
+        text-align: center;
+    }
+    .list{
+        align-self: center;
+    }
+    th{
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+    .datos{
+        width: 80%;
+        align-self: center;
+    }
+    @media screen and (max-width:375px){
+        nav{
+            flex-direction: column;
+            position: absolute;
+            left: 0;
+            top: 13%;
+            font-weight: bold;
+            gap: 0.5rem;
+        }
+        nav>a{
+            border-radius: 0.5rem;
+        }
+        header{
+            height: 18rem;
+            background-position-y: 20%;
+            background-position-x: 50%;
+        }
+        #titulo{
+            position: absolute;
+            border-radius: 1rem;
+            top: 100%;
+            left: 10%;
+            padding: 0;
+            text-align: center;
+            font-size: 1.5rem;
+            width: 80%;
+        }
+        #logo{
+            width: 25%;
+            left: 40%;
+            border-radius: 0.5rem;
+            border: 2px solid rgb(201, 216, 62);
+        }
+        .subtitulo{
+            font-size: 1.1rem;
+            height: auto;
+            font-weight: normal;
+            width: 30%;
+            border-radius: 0.5rem;
+            top: 58%;
+            left: 35%;
+            background-color: rgb(105, 173, 105);
+            box-shadow: 3px 3px 5px rgb(44, 80, 44);
+            border: 1px solid rgb(44, 80, 44);
+        }
+        .fotito{
+            width: 20%;
+            border-radius: 0.5rem;
+            top: 59%;
+            left: 0;
+            z-index: 1;
+            box-shadow: 2px 2px 2px rgb(93, 104, 0);
+        }
+        section{
+            margin-top: 5rem;
+            margin-left: 1rem;
+            width: 100%;
+            font-size: 0.9rem;
+            padding: 1.5rem;
+        }
+        h4{
+            font-size: 1rem;
+            font-weight: normal;
+            margin-top: 0;
+            width: 120%;
+            position
+        }
 }
