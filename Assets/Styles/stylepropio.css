@@ -354,8 +354,12 @@ button:hover{
     left: 80%;
     top: 15%;
 }
-.maps>span>p{
+.maps>span{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
 }
 .maps>span{
     border: 2px dotted rgb(44, 80, 44);
@@ -578,7 +582,7 @@ iframe{
             font-weight: normal;
         }
         .subtitleg{
-            margin-left: 2rem;
+            margin-left: 4rem;
             margin-bottom: 0.5rem;
         }
         form{
@@ -636,5 +640,4 @@ iframe{
             left: -0.8rem;
             top: 150%;
         }
-        
     }
