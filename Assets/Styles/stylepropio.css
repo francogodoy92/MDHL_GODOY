@@ -343,6 +343,28 @@ button:hover{
     transform: scale(1.4);
     box-shadow: -4px 4px 5px rgb(93, 104, 0);
 }
+.maps{
+    display: flex;
+    width: 15rem;
+    flex-direction: row;
+    color: #9c9c9c;
+    gap: 0.5rem;
+    position: absolute;
+    background-color: transparent;
+    left: 80%;
+    top: 15%;
+}
+.maps>span>p{
+    text-align: center;
+}
+.maps>span{
+    border: 2px dotted rgb(44, 80, 44);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+iframe{
+    border-radius: 0.5rem;
+}
 @media screen and (max-width:768px){
     nav>a{
         border-radius: 0.5rem;
@@ -413,6 +435,12 @@ button:hover{
     }
     h4{
         margin-left: 1.5rem;
+    }
+    .maps{
+        width: 40rem;
+        position: absolute;
+        left: 3.5rem;
+        top: 130%;
     }
 }
 @media screen and (max-width:375px){
@@ -602,4 +630,11 @@ button:hover{
         #parentSign{
             width: 60%;
         }
+        .maps{
+            width: 25rem;
+            position: absolute;
+            left: -0.8rem;
+            top: 150%;
+        }
+        
     }
