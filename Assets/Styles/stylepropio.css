@@ -344,11 +344,20 @@ button:hover{
     box-shadow: -4px 4px 5px rgb(93, 104, 0);
 }
 @media screen and (max-width:768px){
+    nav>a{
+        border-radius: 0.5rem;
+    }
+    #titulo{
+        border-radius: 1rem;
+    }
     .subtitulo{
         top: 67%;
+        border-radius: 0.5rem;
     }
     .subtitulorg{
         height: auto;
+        border-radius: 0.5rem;
+        font-size: 1.5rem;
     }
     .subtitle{
         align-self: center;
@@ -364,6 +373,46 @@ button:hover{
     .datos{
         width: 80%;
         align-self: center;
+    }
+    .fotito{
+        width: 20%;
+        border-radius: 0.5rem;
+        top: 65%;
+        left: 0;
+        z-index: 1;
+        box-shadow: 2px 2px 2px rgb(93, 104, 0);
+    }
+    #logo{
+        width: 15%;
+        left: 43%;
+    }
+    .fotitorg{
+        width: 20%;
+        top: 0;
+    }
+    .subtitleg{
+        margin-top: 4rem;
+    }
+    .datos{
+        width: 40rem;
+    }
+    th{
+        font-weight: normal;
+    }
+    table{
+        width: 80%;
+        box-shadow: 2px 2px 2px rgb(93, 104, 0);
+    }
+    form{
+        width: 90%;
+    }
+    section{
+        margin-top: 9rem;
+        margin-left: 3rem;
+        width: 100%;
+    }
+    h4{
+        margin-left: 1.5rem;
     }
 }
 @media screen and (max-width:375px){
@@ -428,13 +477,11 @@ button:hover{
             padding: 1.5rem;
         }
         h4{
-            font-size: 1rem;
             font-weight: normal;
-            margin-top: 0;
             width: 120%;
             text-align: center;
             position: relative;
-            left: -4.5rem;
+            left: -6rem;
         }
         .about{
             margin-left: 0;
